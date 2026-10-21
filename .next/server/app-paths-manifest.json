@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/icon.svg/route": "app/icon.svg/route.js",
+  "/(public)/page": "app/(public)/page.js",
+  "/(admin)/admin/page": "app/(admin)/admin/page.js",
+  "/(public)/booking/confirmation/page": "app/(public)/booking/confirmation/page.js",
+  "/(public)/booking/page": "app/(public)/booking/page.js",
+  "/(public)/contact/page": "app/(public)/contact/page.js",
+  "/(public)/gallery/page": "app/(public)/gallery/page.js",
+  "/(public)/services/page": "app/(public)/services/page.js",
+  "/(public)/story/page": "app/(public)/story/page.js",
+  "/(public)/team/page": "app/(public)/team/page.js"
+}

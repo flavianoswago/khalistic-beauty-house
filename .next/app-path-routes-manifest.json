@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/_global-error/page": "/_global-error",
+  "/icon.svg/route": "/icon.svg",
+  "/(public)/page": "/",
+  "/(admin)/admin/page": "/admin",
+  "/(public)/booking/confirmation/page": "/booking/confirmation",
+  "/(public)/booking/page": "/booking",
+  "/(public)/contact/page": "/contact",
+  "/(public)/gallery/page": "/gallery",
+  "/(public)/services/page": "/services",
+  "/(public)/story/page": "/story",
+  "/(public)/team/page": "/team"
+}

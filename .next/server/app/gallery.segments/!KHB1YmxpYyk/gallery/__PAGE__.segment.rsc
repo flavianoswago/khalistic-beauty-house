@@ -1,0 +1,31 @@
+3:"$Sreact.fragment"
+4:I[7121,[],""]
+5:I[4581,[],""]
+a:"static/chunks/500-fc3b64d9ff4a32a7.js"
+b:"static/chunks/437-df77b441101c1a02.js"
+c:"static/chunks/app/(public)/gallery/page-992800f07f37e872.js"
+d:I[8500,["500","$a","437","$b","162","$c"],""]
+e:"GalleryPortfolio"
+f:I[1326,["500","$a","437","$b","162","$c"],"$e"]
+10:I[484,[],"OutletBoundary"]
+11:"$Sreact.suspense"
+14:"ViewportBoundary"
+15:I[484,[],"$14"]
+16:"MetadataBoundary"
+17:I[484,[],"$16"]
+18:I[6869,[],"IconMark"]
+7:X
+7:C
+8:X
+9:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","main",null,{"className":"gallery-page","children":["$","div",null,{"className":"site-container site-container--wide","children":[["$","nav",null,{"aria-label":"Breadcrumb","className":"breadcrumbs","children":["$","ol",null,{"className":"breadcrumbs__list","children":[["$","li","Home-0",{"className":"breadcrumbs__item","children":["$","$Ld",null,{"href":"/","children":"Home"}]}],["$","li","Gallery-1",{"className":"breadcrumbs__item","children":["$","span",null,{"aria-current":"page","children":"Gallery"}]}]]}]}],["$","header",null,{"className":"section-heading section-heading--left","children":[["$","p",null,{"className":"section-heading__eyebrow","children":"The gallery � concept collection"}],["$","h1",null,{"className":"section-heading__title","children":"Small details, lovely moments"}],["$","div",null,{"className":"section-heading__description","children":"Explore the beauty moods imagined for The Khalistic Beauty House. These original illustrations are placeholders, not photographs of real client work or a real studio."}]]}],["$","p",null,{"className":"gallery-page__notice","children":"Illustrative concept art � replace with approved studio photography before launch."}],["$","$Lf",null,{"images":[{"id":"braids","src":"/images/services/hair-braiding.jpg","alt":"Two women braiding hair in a salon; stock inspiration photo, not a Khalistic client result","caption":"Braided beauty","category":"Braids","serviceName":"Protective braids","imageLabel":"Stock inspiration photo"},{"id":"hairstyles","src":"/images/services/hair-styling.jpg","alt":"Natural textured hair styled in twists; stock inspiration photo, not a Khalistic client result","caption":"Natural texture","category":"Hairstyles","serviceName":"Natural hair styling","imageLabel":"Stock inspiration photo"},{"id":"nails","src":"/images/services/nail-service.jpg","alt":"Client receiving a manicure; stock inspiration photo, not a Khalistic client result","caption":"A rosy finish","category":"Nails","serviceName":"Manicure","imageLabel":"Stock inspiration photo"},{"id":"makeup","src":"/images/services/makeup-application.jpg","alt":"Makeup professional applying eye makeup; stock inspiration photo, not a Khalistic client result","caption":"Soft glam","category":"Makeup","serviceName":"Makeup artistry","imageLabel":"Stock inspiration photo"},{"id":"interior","src":"/images/story/salon-interior.jpg","alt":"Bright salon interior with styling chair, mirror, and leafy plant; studio reference photo","caption":"A welcoming space","category":"Interiors","serviceName":"Studio reference","imageLabel":"Studio reference photo"},{"id":"skincare","src":"/images/services/facial-treatment.jpg","alt":"Client receiving a facial mask treatment; stock inspiration photo, not a Khalistic client result","caption":"A moment to reset","category":"Skincare","serviceName":"Facial care","imageLabel":"Stock inspiration photo"}]}]]}]}],null,["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}],"p":"$@13","v":null,"s":"$8"}}]]
+2:[["children",{"s":"gallery","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@6","v":"$7","s":"$8"},"c":"$Q9"}]]
+1:[["children",{"s":"(public)","c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$11",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Beauty Gallery | The Khalistic Beauty House"}],["$","meta","1",{"name":"description","content":"Explore the concept gallery for The Khalistic Beauty House of illustrative beauty, hair, nails, makeup and interior artwork."}],["$","meta","2",{"property":"og:title","content":"Beauty Gallery"}],["$","meta","3",{"property":"og:description","content":"Explore the concept gallery for The Khalistic Beauty House of illustrative beauty, hair, nails, makeup and interior artwork."}],["$","meta","4",{"property":"og:image","content":"https://khalistic-beauty-house.example/images/gallery/hairstyles-concept.svg"}],["$","meta","5",{"property":"og:image:alt","content":"Illustrative hairstyle concept artwork"}],["$","meta","6",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","7",{"name":"twitter:title","content":"The Khalistic Beauty House"}],["$","meta","8",{"name":"twitter:description","content":"Where Beauty Feels Like Home. Discover hair, skin, nail and makeup services under one roof."}],["$","meta","9",{"name":"twitter:image","content":"https://khalistic-beauty-house.example/images/story/salon-interior.jpg"}],["$","link","10",{"rel":"icon","href":"/icon.svg?261003717463be62","type":"image/svg+xml","sizes":"any"}],["$","$L18","11",{}]]}]}],null]}],null]}],"p":"$@19","v":null,"s":"$8"}},"a":"$@1a","u":"$@1b","b":"xSqQi47fjTI8ExD7XzR2H"}
+12:null
+1b:true
+8:300
+8:C
+1a:0
+6:"$undefined"
+19:"$undefined"
+13:"$undefined"

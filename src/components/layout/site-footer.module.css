@@ -1,0 +1,45 @@
+.footer {
+  --footer-cream: #FBF3EF;
+  --footer-blush: #F8E9E9;
+  --footer-gold: #C6A15B;
+  --footer-rose: #75504C;
+  --footer-white: #FFFFFF;
+  --footer-muted: #887D78;
+  position: relative;
+  margin-top: auto;
+  overflow: hidden;
+  background: var(--footer-cream);
+  color: var(--footer-rose);
+}
+.topRule { height: 3px; background: linear-gradient(90deg, var(--footer-blush), var(--footer-gold), var(--footer-blush)); }
+.wrap { width: min(100% - 2.5rem, 80rem); margin-inline: auto; padding-block: clamp(2.75rem, 6vw, 5rem) 1.25rem; }
+.mainGrid { display: grid; grid-template-columns: minmax(16rem, 1.5fr) minmax(9rem, .7fr) minmax(17rem, 1.1fr); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
+.brand { max-width: 28rem; }
+.wordmark { display: inline-flex; align-items: center; gap: .75rem; color: var(--footer-rose); font-family: Georgia, 'Times New Roman', serif; font-size: 1.05rem; font-weight: 700; letter-spacing: .1em; line-height: 1.35; text-decoration: none; }
+.wordmark strong { display: block; font-size: .85em; letter-spacing: .18em; }
+.brandIcon { display: grid; width: 2.8rem; height: 2.8rem; place-items: center; border: 1px solid var(--footer-gold); border-radius: 50%; color: var(--footer-gold); }
+.tagline { margin: 1.15rem 0 .45rem; color: var(--footer-rose); font-family: Georgia, 'Times New Roman', serif; font-size: 1.13rem; font-style: italic; }
+.description { max-width: 25rem; margin: 0; color: var(--footer-rose); font-size: .94rem; line-height: 1.75; }
+.explore h2, .contact h2, .newsletter h2, .social h2 { margin: .35rem 0 1.1rem; color: var(--footer-rose); font-family: Georgia, 'Times New Roman', serif; font-size: 1.15rem; font-weight: 600; }
+.explore ul, .contact ul { display: grid; gap: .7rem; margin: 0; padding: 0; list-style: none; }
+.explore a, .contact a { color: var(--footer-rose); text-decoration-color: transparent; text-underline-offset: .2em; transition: color 160ms ease, text-decoration-color 160ms ease; }
+.explore a:hover, .contact a:hover { color: #563A37; text-decoration-color: var(--footer-gold); }
+.contact li { display: flex; align-items: flex-start; gap: .8rem; color: var(--footer-gold); }
+.contact li > svg { flex: 0 0 1.05rem; margin-top: .2rem; }
+.contact li span { display: grid; gap: .18rem; color: var(--footer-rose); }
+.contact li strong { font-size: .83rem; font-weight: 650; }
+.contact li small, .contact li a { color: var(--footer-rose); font-size: .9rem; line-height: 1.45; overflow-wrap: anywhere; }
+.footer .bookingButton { display: inline-flex; min-height: 3rem; align-items: center; justify-content: center; gap: .65rem; margin-top: 1.4rem; border: 1px solid var(--footer-rose); border-radius: 999px; padding: .8rem 1.25rem; background: var(--footer-rose); color: var(--footer-white); font-size: .93rem; font-weight: 650; text-decoration: none; transition: background 180ms ease, transform 180ms ease, box-shadow 180ms ease; }
+.footer .bookingButton:hover { transform: translateY(-1px); background: #563A37; box-shadow: 0 8px 20px rgb(117 80 76 / 16%); }
+.extras { display: flex; justify-content: space-between; gap: 2rem; margin-top: clamp(2.5rem, 5vw, 4rem); border-top: 1px solid rgb(117 80 76 / 18%); padding-top: 1.7rem; }
+.newsletter p { margin: -.45rem 0 .65rem; color: var(--footer-rose); font-size: .92rem; }
+.comingSoon { color: var(--footer-rose); font-size: .8rem; font-weight: 600; }
+.social { min-width: 12rem; }
+.social a { display: inline-flex; min-height: 2.75rem; align-items: center; gap: .55rem; border: 1px solid rgb(117 80 76 / 25%); border-radius: 999px; padding: .55rem .9rem; color: var(--footer-rose); text-decoration: none; transition: background 160ms ease, border-color 160ms ease; }
+.social a:hover { border-color: var(--footer-gold); background: var(--footer-blush); }
+.bottomBar { display: flex; justify-content: space-between; gap: 1.5rem; margin-top: 1.8rem; border-top: 1px solid rgb(117 80 76 / 18%); padding-top: 1rem; color: var(--footer-rose); font-size: .78rem; }
+.bottomBar p { margin: 0; }
+.footer a:focus-visible { outline: 3px solid var(--footer-rose); outline-offset: 3px; border-radius: .2rem; }
+@media (max-width: 58rem) { .mainGrid { grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: 2.5rem 3rem; } .brand { grid-row: span 2; } }
+@media (max-width: 40rem) { .wrap { width: min(100% - 2rem, 32rem); } .mainGrid { grid-template-columns: 1fr; gap: 2rem; } .brand { grid-row: auto; } .extras, .bottomBar { flex-direction: column; } .extras { gap: 1.5rem; } .bottomBar { gap: .5rem; } }
+@media (prefers-reduced-motion: reduce) { .explore a, .contact a, .bookingButton, .social a { transition: none; } .footer .bookingButton:hover { transform: none; } }
